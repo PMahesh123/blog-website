@@ -1,4 +1,4 @@
-### Blog Website Project ###
+### Blog Website ###
 
 
 A responsive blog website built with HTML, CSS, and JavaScript that allows users to read blog posts and leave comments.
