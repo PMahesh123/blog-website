@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#post1">First Post</a></li>
+                <li><a href="#post2">Second Post</a></li>
+                <li><a href="#post3">Third Post</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="intro">
+            <h2>About This Blog</h2>
+            <p>Welcome to my personal blog where I share my thoughts and experiences on various topics.</p>
+        </section>
+
+        <article id="post1" class="blog-post">
+            <h2>The Joy of Coding</h2>
+            <p class="post-date">Published on: October 10, 2023</p>
+            <img src="images/post1.jpg" alt="Coding on laptop" class="post-image">
+            <div class="post-content">
+                <p>Programming is an art form that allows us to create amazing things with just a keyboard and some imagination. The feeling of solving a complex problem or seeing your code come to life is truly exhilarating.</p>
+                <p>Whether you're building websites, mobile apps, or working on artificial intelligence, coding opens up a world of possibilities. The best part? You're always learning something new in this ever-evolving field.</p>
+            </div>
+            <div class="comments-section">
+                <h3>Comments</h3>
+                <div class="comments-container"></div>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Your Comment" required></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+            </div>
+        </article>
+
+        <article id="post2" class="blog-post">
+            <h2>Traveling on a Budget</h2>
+            <p class="post-date">Published on: September 15, 2023</p>
+            <img src="images/post2.jpg" alt="Backpacking travel" class="post-image">
+            <div class="post-content">
+                <p>Many people think that traveling requires a lot of money, but with some planning and smart choices, you can explore the world without breaking the bank.</p>
+                <p>Some of my favorite budget travel tips include traveling during off-peak seasons, staying in hostels or Airbnb, eating local food, and using public transportation. Remember, the best experiences often come from authentic local interactions, not expensive tours.</p>
+            </div>
+            <div class="comments-section">
+                <h3>Comments</h3>
+                <div class="comments-container"></div>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Your Comment" required></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+            </div>
+        </article>
+
+        <article id="post3" class="blog-post">
+            <h2>Healthy Eating Habits</h2>
+            <p class="post-date">Published on: August 5, 2023</p>
+            <img src="images/post3.jpg" alt="Healthy food" class="post-image">
+            <div class="post-content">
+                <p>Developing healthy eating habits doesn't mean you have to follow strict diets or give up all your favorite foods. It's about making sustainable changes that work for your lifestyle.</p>
+                <p>Start with small changes like drinking more water, adding vegetables to every meal, and being mindful of portion sizes. Remember, balance is key - it's okay to enjoy treats in moderation while focusing on nutrient-dense foods most of the time.</p>
+            </div>
+            <div class="comments-section">
+                <h3>Comments</h3>
+                <div class="comments-container"></div>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Your Comment" required></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
